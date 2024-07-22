@@ -1,2 +1,2 @@
 # apollution-detector
-A machine learning model made with python for air pollution detection.
+A simple python app for air pollution predictor using machine learning model by scikit-learn (sklearn) python library.
