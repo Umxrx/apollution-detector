@@ -23,7 +23,7 @@ def relative_to_assets(path: str) -> Path:
 
 
 window = Tk()
-
+window.title("Air Pollution Detector App")
 window.geometry("800x684")
 window.configure(bg = "#FFFFFF")
 
