@@ -38,7 +38,7 @@ A simple python app for air pollution predictor using machine learning model by 
 1. Install all of the requirements by simply running this command in your terminal:-  
   
    ```
-   `pip install -r requirements.txt`
+   pip install -r requirements.txt
    ```
   
    This command should install all of the requirements that will be used in this project.  
