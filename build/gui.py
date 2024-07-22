@@ -15,7 +15,7 @@ data = pd.read_csv("globalAirPollutionDataset.csv")
 model, lbl_encoder = train_model(data=data)
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"C:\Users\LENOVO\Documents\Data_Analytics_Project\GUI\build\assets\frame0")
+ASSETS_PATH = OUTPUT_PATH / Path(r"C:\Users\LENOVO\Documents\Data_Analytics_Project\GUI\build\assets\frame0") # This path should be changed to your own 'frame0' path.
 
 
 def relative_to_assets(path: str) -> Path:
