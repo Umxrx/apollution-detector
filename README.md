@@ -57,7 +57,7 @@ A simple python app for air pollution predictor using machine learning model by 
 1. Finally, you can run the gui.py python application using this command:-  
   
    ```
-   `python gui.py`
+   python gui.py
    ```
   
 3. Later, you don't have to repeat the same step to run this code again. You can just follow these two (2) steps only ([Step 1](https://github.com/Umxrx/apollution-detector/tree/main?tab=readme-ov-file#change-directory) and [Step 2](https://github.com/Umxrx/apollution-detector/tree/main?tab=readme-ov-file#run-gui-file)).  
