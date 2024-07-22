@@ -26,7 +26,7 @@ A simple python app for air pollution predictor using machine learning model by 
    ```
   
    You will definitely go to the path that contains all the source code for this project.  
-3. If you want to check all of the files and directories in this path, just simply run this command in your terminal:-  
+2. If you want to check all of the files and directories in this path, just simply run this command in your terminal:-  
   
    ```
    dir
@@ -62,4 +62,8 @@ A simple python app for air pollution predictor using machine learning model by 
    python gui.py
    ```
   
-3. Later, you don't have to repeat the same step to run this code again. You can just follow these two (2) steps only ([Step 2](https://github.com/Umxrx/apollution-detector/tree/main?tab=readme-ov-file#change-directory) and [Step 5](https://github.com/Umxrx/apollution-detector/tree/main?tab=readme-ov-file#run-gui-file)).  
+2. Later, you don't have to repeat the same step to run this code again. You can just follow these two (2) steps only ([Step 2](https://github.com/Umxrx/apollution-detector/tree/main?tab=readme-ov-file#change-directory) and [Step 5](https://github.com/Umxrx/apollution-detector/tree/main?tab=readme-ov-file#run-gui-file)).  
+3. Your python application should look like this:-  
+  
+   ![](https://github.com/Umxrx/apollution-detector/blob/main/Images/Air_Pollution_Detector_App.jpg)  
+  
