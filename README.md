@@ -45,8 +45,10 @@ A simple python app for air pollution predictor using machine learning model by 
 
 ## **Edit GUI File**
 1. Before you run the code, you **MUST** edit your gui.py file first.  
-   In order to access all of the required images in the GUI, you must copy the PATH of 'frame0' (you can see the file [HERE](https://github.com/Umxrx/apollution-detector/tree/main/build/assets/frame0)) and paste it in this segment to change the default PATH in **gui.py - Line 18**:-  
-   ![](https://github.com/Umxrx/apollution-detector/blob/main/Images/Should-be-changed.jpg)  
+   In order to access all of the required images in the GUI, you must copy the PATH of 'frame0' (you can see the file [HERE](https://github.com/Umxrx/apollution-detector/tree/main/build/assets/frame0)) and paste it in this segment to change the default PATH in **gui.py - Line 18**:-
+  
+   ![](https://github.com/Umxrx/apollution-detector/blob/main/Images/Should-be-changed.jpg)
+  
    The path should look like this:-  
   
    ```
@@ -60,4 +62,4 @@ A simple python app for air pollution predictor using machine learning model by 
    python gui.py
    ```
   
-3. Later, you don't have to repeat the same step to run this code again. You can just follow these two (2) steps only ([Step 1](https://github.com/Umxrx/apollution-detector/tree/main?tab=readme-ov-file#change-directory) and [Step 2](https://github.com/Umxrx/apollution-detector/tree/main?tab=readme-ov-file#run-gui-file)).  
+3. Later, you don't have to repeat the same step to run this code again. You can just follow these two (2) steps only ([Step 2](https://github.com/Umxrx/apollution-detector/tree/main?tab=readme-ov-file#change-directory) and [Step 5](https://github.com/Umxrx/apollution-detector/tree/main?tab=readme-ov-file#run-gui-file)).  
