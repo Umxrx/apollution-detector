@@ -76,7 +76,7 @@ canvas.create_text(
     57.0,
     452.0,
     anchor="nw",
-    text="* CO in mg/m3 and other pollutants in μg/m3; 2-hourly average values for for PM10, PM2.5, NO2, SO2, \nNH3, and Pb, and 8-hourly values for CO and O3.",
+    text=u"* CO in mg/m\u00B3 and other pollutants in μg/m\u00B3; 2-hourly average values for for PM\u2081\u2080, PM\u2082.\u2085, NO\u2082, SO\u2082, \nNH\u2083, and Pb, and 8-hourly values for CO and O\u2083.",
     fill="#000000",
     font=("TimesNewRomanPS BoldMT", 14 * -1)
 )
@@ -139,7 +139,7 @@ canvas.create_text(
     34.0,
     539.0,
     anchor="nw",
-    text="O3 AQI Value",
+    text=u"O\u2083 AQI Value",
     fill="#000000",
     font=("TimesNewRomanPS BoldMT", 16 * -1)
 )
@@ -148,7 +148,7 @@ canvas.create_text(
     34.0,
     588.0,
     anchor="nw",
-    text="NO2 AQI Value",
+    text=u"NO\u2082 AQI Value",
     fill="#000000",
     font=("TimesNewRomanPS BoldMT", 16 * -1)
 )
@@ -213,7 +213,7 @@ canvas.create_text(
     34.0,
     636.0,
     anchor="nw",
-    text="PM2.5 AQI Value",
+    text=u"PM\u2082.\u2085 AQI Value",
     fill="#000000",
     font=("TimesNewRomanPS BoldMT", 16 * -1)
 )
@@ -488,7 +488,7 @@ canvas.create_text(
     206.0,
     165.0,
     anchor="nw",
-    text="PM10",
+    text=u"PM\u2081\u2080",
     fill="#000000",
     font=("TimesNewRomanPSMT", 14 * -1)
 )
@@ -497,7 +497,7 @@ canvas.create_text(
     276.0,
     165.0,
     anchor="nw",
-    text="PM2.5",
+    text=u"PM\u2082.\u2085",
     fill="#000000",
     font=("TimesNewRomanPSMT", 14 * -1)
 )
@@ -506,7 +506,7 @@ canvas.create_text(
     346.0,
     165.0,
     anchor="nw",
-    text="NO2",
+    text=u"NO\u2082",
     fill="#000000",
     font=("TimesNewRomanPSMT", 14 * -1)
 )
@@ -515,7 +515,7 @@ canvas.create_text(
     416.0,
     165.0,
     anchor="nw",
-    text="O3",
+    text=u"O\u2083",
     fill="#000000",
     font=("TimesNewRomanPSMT", 14 * -1)
 )
@@ -533,7 +533,7 @@ canvas.create_text(
     556.0,
     165.0,
     anchor="nw",
-    text="SO2",
+    text=u"SO\u2082",
     fill="#000000",
     font=("TimesNewRomanPSMT", 14 * -1)
 )
@@ -542,7 +542,7 @@ canvas.create_text(
     626.0,
     165.0,
     anchor="nw",
-    text="NH3",
+    text=u"NH\u2083",
     fill="#000000",
     font=("TimesNewRomanPSMT", 14 * -1)
 )
@@ -1164,9 +1164,9 @@ def button_clicked():
         set_text(text=f'{predicted_category}')
 
         print('> %-18s : %s' % ('CO AQI Category', co_aqi_category))
-        print('> %-18s : %s' % ('Ozone AQI Category', ozone_aqi_category))
-        print('> %-18s : %s' % ('NO2 AQI Category', no2_aqi_category))
-        print('> %-18s : %s' % ('PM2.5 AQI Category', pm25_aqi_category))
+        print('> %-18s : %s' % (u'O\u2083 AQI Category', ozone_aqi_category))
+        print('> %-18s : %s' % (u'NO\u2082 AQI Category', no2_aqi_category))
+        print('> %-18s : %s' % (u'PM\u2082.\u2085 AQI Category', pm25_aqi_category))
         print('===============================================')
         print('> %-18s : %s' % ('Predicted Category', predicted_category))
         print('===============================================')
